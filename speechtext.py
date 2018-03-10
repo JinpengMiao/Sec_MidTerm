@@ -11,23 +11,15 @@ r = sr.Recognizer()
 
 while True:
 	with sr.Microphone() as source:
-<<<<<<< HEAD
-<<<<<<< HEAD
     		print ('Listening:')
 		try:
     			audio = r.listen(source)
     			print ('Message heard')
-=======
-=======
->>>>>>> d1dcd1996cfe2aaeae11043b233834b5d38c3887
+
     		print ('Say Something!')
 		try:
     			audio = r.listen(source)
     			print ('Done!')
-<<<<<<< HEAD
->>>>>>> d1dcd1996cfe2aaeae11043b233834b5d38c3887
-=======
->>>>>>> d1dcd1996cfe2aaeae11043b233834b5d38c3887
                         text = r.recognize_google(audio)
                         print ("You Said: " + text)
                         try:
@@ -45,12 +37,7 @@ while True:
 		except:
                         print("Didn't say anything")
 		print("Yo\n\n")
-<<<<<<< HEAD
-<<<<<<< HEAD
 	time.sleep(12)
-=======
+
 	time.sleep(5)
->>>>>>> d1dcd1996cfe2aaeae11043b233834b5d38c3887
-=======
-	time.sleep(5)
->>>>>>> d1dcd1996cfe2aaeae11043b233834b5d38c3887
+
