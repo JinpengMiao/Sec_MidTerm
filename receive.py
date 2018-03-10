@@ -1,8 +1,6 @@
 import os
 from gtts import gTTS
 while True:
-<<<<<<< HEAD
-<<<<<<< HEAD
     response=""
     if(os.path.isfile("/root/output.txt")==True):
         f=open("output.txt","r")
@@ -25,10 +23,6 @@ while True:
             	    f.close()
             	    os.remove("/root/output.mp3")
 
-	
-=======
-=======
->>>>>>> d1dcd1996cfe2aaeae11043b233834b5d38c3887
     if(os.path. isfile("/root/output.txt")==True):
         f=open("output.txt","r")
         response=f.read()
@@ -41,7 +35,4 @@ while True:
 	f=open("output.txt","r+")
 	f.truncate()
 	f.close()
-<<<<<<< HEAD
->>>>>>> d1dcd1996cfe2aaeae11043b233834b5d38c3887
-=======
->>>>>>> d1dcd1996cfe2aaeae11043b233834b5d38c3887
+
